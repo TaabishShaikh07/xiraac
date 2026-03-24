@@ -1,0 +1,19 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1920" height="1080" fill="url(#hero-gradient)"/>
+  
+  <!-- Overlay pattern -->
+  <rect width="1920" height="1080" fill="url(#overlay-pattern)" opacity="0.1"/>
+  
+  <!-- Gradient definitions -->
+  <defs>
+    <linearGradient id="hero-gradient" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#008080"/>
+      <stop offset="100%" stop-color="#006666"/>
+    </linearGradient>
+    
+    <pattern id="overlay-pattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M0 10h20M10 0v20" stroke="#ffffff" stroke-width="0.5" opacity="0.2"/>
+    </pattern>
+  </defs>
+</svg>
